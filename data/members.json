@@ -50,9 +50,9 @@
 	"5":{
 		"name":"k3ng",
 		"icon":"k3ng.webp",
-		"description":"Forensics enjoyer",
+		"description":"CTF generalist by force when forensics is not on the menu",
 		"categories":[
-			"misc"
+			"forensics"
 		],
 		"website":"https://k3ng.xyz"
 	}
