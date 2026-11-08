@@ -1,0 +1,48 @@
+html {
+	background: #1e1e1e;
+	font-family: 'Monaco',monospace; 
+}
+
+/* main layout sizing */
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+header, footer {
+	height: 38px;
+}
+
+main {
+	overflow: auto; /* doing this for now to prevent margin collapsing, https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model/Margin_collapsing, https://stackoverflow.com/questions/19718634/how-to-disable-margin-collapsing. The UA was adding a margin to paragraphs inside main, which would then collapse and push main itself down on the page, causing the page to overflow. */
+	height: calc(100% - 38px * 2);
+}
+/* main layout sizing */
+
+
+/* home */
+home-logo {
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+/* home */
+
+/* header */
+nav-buttons {
+	display: flex;
+	gap: 1%;
+	margin-left: 20px;
+	& a {
+		font-size: 32px;
+		color: #ffffff;
+		text-decoration-color: #3e3e3e;
+	}
+}
+/* header */
+
+/* general */
+p {
+	color: #ffffff;
+}
+/* general */
