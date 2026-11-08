@@ -1,74 +1,60 @@
 {
-	"APender":{
+	"0":{
+		"name":"APender",
 		"icon":"apender.webp",
 		"description":"ArkArk fan",
 		"categories":[
-			"web",
-			"rev",
-			"pwn",
-			"crypto",
-			"misc"
+			"web"
 		],
 		"website":"https://apendergh.github.io/"
 	},
-	"stackotter":{
+	"1":{
+		"name":"stackotter",
 		"icon":"stackotter.webp",
 		"description":"Stacking otters",
 		"categories":[
-			"web",
 			"rev",
 			"pwn",
-			"crypto",
-			"misc"
+			"crypto"
 		],
 		"website":"https://stackotter.dev/"
 	},
-	"bpaul":{
+	"2":{
+		"name":"bpaul",
 		"icon":"bpaul.webp",
 		"description":"i like it when the code goes fast",
 		"categories":[
-			"web",
 			"rev",
 			"pwn",
-			"crypto",
-			"misc"
+			"crypto"
 		],
 		"website":"https://bpaul.xyz/town/"
 	},
-	"numberri":{
+	"3":{
+		"name":"numberri",
 		"icon":"numberri.webp",
 		"description":"computer math enjoyer",
 		"categories":[
-			"web",
-			"rev",
-			"pwn",
-			"crypto",
-			"misc"
+			"crypto"
 		],
 		"website":"https://numberri.xyz/"
 	},
-	"Jayden":{
-		"icon":"jayden.webp",
-		"description":"roblox and beer",
+	"4":{
+		"name":"Jayden",
+		"icon":"Jayden.webp",
+		"description":"roblox and alcohol",
 		"categories":[
-			"web",
-			"rev",
-			"pwn",
-			"crypto",
-			"misc"
+			"pwn"
 		],
 		"website":""
 	},
-	"k3ng":{
+	"5":{
+		"name":"k3ng",
 		"icon":"k3ng.webp",
 		"description":"Forensics enjoyer",
 		"categories":[
-			"web",
-			"rev",
-			"pwn",
-			"crypto",
 			"misc"
 		],
 		"website":"k3ng.xyz"
-	},
+	}
 }

@@ -1,24 +1,24 @@
 {{ define "main" }}
 	<members>
+		{{ range $member := hugo.Data.members }}
 		<member>
-			<img height="200" width="200" src="/icons/players/apender.webp">
+			<img height="200" width="200" src="/icons/players/{{ $member.icon }}">
 			<card>
 				<text>
-					<name>APender</name>
-					<description>ArkArk fan</description>
+					<name>{{ $member.name }}</name>
+					<description>{{ $member.description }}</description>
 					<categories>
-						<category class="web">web</category>
-						<category class="rev">rev</category>
-						<category class="crypto">crypto</category>
-						<category class="pwn">pwn</category>
-						<category class="misc">misc</category>
+						{{ range $category := $member.categories }}
+						<category class="{{ $category }}"> {{ $category }}</category>
+						{{ end }}
 					</categories>
 				</text>
-				<a target="_blank" href="http://apendergh.github.io">
+				<a target="_blank" href="{{ $member.website }}">
 					<img height="25" width="25" src="/icons/fontawesome/globe-solid-full.svg">
 				</a>
 			</card>
 		</member>
+		{{ end }}
 	</members>
 	<style>
 		members {
